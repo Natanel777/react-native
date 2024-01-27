@@ -9,7 +9,11 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "locales": {
+        "en": "./translations/en.json",
+        "he": "./translations/he.json"
+      }
     },
     "assetBundlePatterns": [
       "**/*"
@@ -26,5 +30,6 @@
     "web": {
       "favicon": "./assets/favicon.png"
     }
+    
   }
 }
